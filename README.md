@@ -3,11 +3,15 @@ About karchive
 
 Home: https://api.kde.org/frameworks/karchive/html/index.html
 
-Package license: GPL-v2
+Package license: BSD-2-Clause AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/karchive-feedstock/blob/master/LICENSE.txt)
 
 Summary: Reading, creating, and manipulating file archives
+
+Development: https://cgit.kde.org/karchive.git/tree
+
+Documentation: https://api.kde.org/frameworks/karchive/html/index.html
 
 KArchive provides classes for easy reading, creation and manipulation of "archive"
 formats like ZIP and TAR. It also provides transparent compression and decompression of data,
