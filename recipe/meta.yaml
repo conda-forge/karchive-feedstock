@@ -11,7 +11,7 @@ source:
   sha256: 3a606a06c31651d6af51f013b87237880c0a7fb0cd55951b2a162e726433b203
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('karchive', max_pin='x.x') }}
@@ -24,7 +24,7 @@ requirements:
     - make
     - extra-cmake-modules >={{ version }}
   host:
-    - qt
+    - qt-main
     - xz
     - zlib
     - bzip2
