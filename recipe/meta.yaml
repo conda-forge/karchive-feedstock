@@ -1,5 +1,5 @@
 {% set name = "karchive" %}
-{% set version = "5.76.0" %}
+{% set version = "5.80.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/karchive-{{ version }}.zip
-  sha256: 3a606a06c31651d6af51f013b87237880c0a7fb0cd55951b2a162e726433b203
+  sha256: 16e7b55d5cc886f4e481b11749cf28451a099d4d090d9daeab5de04dc1b1c33d
 
 build:
   number: 0
